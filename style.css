@@ -1,0 +1,381 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto,SF Pro,Helvetica Neue,Helvetica,Arial,Sans-serif;
+     line-height: 1.28571;
+     background-color: #D3D3D3;
+}
+
+ul li {
+    padding: 1.4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav .inp{
+border: none;
+}
+nav .inp:focus{
+    outline: #f57224 !important;
+}
+
+.btn {
+   
+    background-color: #f57224;
+    }
+    
+.btn:hover  {
+background-color: #f57224;
+}
+
+.my-nav{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+
+  .ads{
+    padding: 2rem;
+    width: 80%;
+    
+}
+.discount-product{
+    display: flex;
+ justify-content: space-around;
+ align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.discount-product  .cards{
+    width: 360px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 5px 5px;
+    margin-bottom: 14px;
+    position: relative;
+    background-image: url(images/card1.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.discount-product  .cards:hover{
+    transition-duration: 1s;
+    background-image: url(../pak-wheel/images/audi-A7.png);
+    opacity:0.7;
+    background-color: #D3D3D3;
+}
+
+
+
+.cards .text{
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+align-items: end;
+    color: #f57224;
+}
+.sticker{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f57224;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 34px;
+font-weight: 600;
+color: #fff;
+text-align: center;
+}
+
+
+
+
+.sale-product{
+    display: flex;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.sale-product .card{
+    width: 180px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 1px 1px 1px;
+    margin: 1rem 0.1rem;
+    cursor: pointer;
+    display: flex;
+    align-content: space-between;
+     
+}
+
+.card-body{
+    /* display: flex;
+    align-items: flex-end;
+     */
+}
+
+.card .card-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-body  .price{
+    font-size: 18px;
+    color: #f57224;
+}
+.card-body .discount-price{
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.card-body .checked{
+
+        color: orange;
+      
+}
+
+@media only screen and (max-width: 992px){
+    .sale-product .card{
+        width: 250px;
+    }
+}
+
+
+.contaioner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+width: 100%;
+flex-wrap: wrap;
+
+}
+
+.small-imgs{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.details .more-detail{
+    padding: 1rem 2rem;
+width: 445px;
+
+}
+.details .more-detail h5{
+    padding: 1rem 0rem;
+    border-bottom: 1px solid #cecece;
+    opacity: 0.9;
+}
+
+.details .rate-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  border-bottom:  1px solid #cecece;
+}
+.details .more-detail .price-box{
+    padding: 1rem 0rem;
+     border-bottom: 1px solid #cecece;
+    
+    }
+.details .more-detail .price-head{
+    font-size: 26px;
+    color: #f57224;
+    
+}
+
+.details .more-detail .quantity{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    font-size: 20px;
+}
+
+.details .more-detail .quantity >img{
+    background-color: #cecece;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.details .more-detail .btn-box{
+    display: flex;
+    padding: 1rem 0rem;
+
+}
+.details .more-detail .btn-box .btn{
+    width: 200px;
+    padding: 1rem 0.5rem;
+    border-radius: 2px !important;
+    margin-left: 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800px;
+}
+.details .more-detail .btn-box .btn1{
+    background: #2abbe8;
+}
+
+
+.delivery{
+    background-color: #dfdede;
+    padding: 1rem 1.4rem 0.2rem 1rem;
+    border-bottom: 1px solid #cecece;
+    opacity: 0.9;
+    font-size: 14px;
+    width: 330px;
+}
+
+.delivery .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 300px;
+}
+.delivery .top .addr{
+    font-size: 13px;
+   
+    font-weight: 600;
+    width: 50%;
+    
+}
+
+.page-containor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+
+@media only screen and (max-width: 1077px){
+   
+
+    .delivery{
+        background-color: #dfdede;
+        width: 620px;
+    }
+   
+    .delivery .top{
+        background-color: #dfdede;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 614px){
+    .delivery{
+        background-color: #dfdede;
+       width: 100%;
+    }
+   
+    .delivery .top{
+        background-color: #dfdede;
+       width: 100%;
+    }
+    .details{
+        width: 100%;
+    }
+    .more-detail{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 414px){
+
+    .details .more-detail .btn-box .btn{
+        width: 80%;
+      
+    }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.twitter:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.facebook:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.instagram:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.youtube:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.tiktok:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+
+.footer {
+    width: auto;
+    background-color: #2e2e54;;
+    align-items: center;
+    padding: 10% 6%;
+    color: #fff;
+}
+
+.footer .textend {
+    width: 19%;
+    font-weight: 700;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-side {
+    margin: 0% auto;
+
+}
+
+.about h6 {
+    font-weight: 800;
+}
+
+.copyright{
+    text-align: center;
+    padding: 1rem;
+    background-color: #f57224;
+    color: #fff;
+    font-weight: 800;
+    font-size: 22px;
+}

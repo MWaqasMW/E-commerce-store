@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary my-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catergory
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item"  onclick="click('jewelery')" >Jewelery</a></li>
+              <li><a class="dropdown-item"   onclick="click('electronics')">Electronics </a></li>
+              <li><a class="dropdown-item"  onclick="click('men s Clothing')">Men's Clothing</a></li>
+              <li><a class="dropdown-item"  onclick="click('women s Clothing')">Women's Clothing</a></li>
+           
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">About</a>
+          </li>
+        </ul>
+        <div class="d-flex" role="search">
+          <input class="form-control me-0 inp" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn " type="submit"><img src="images/magnifying-glass.png" alt="" width="24px"></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container ads"><img src="../news-web/images/ads.jpg" alt="" width="100%"></div>
+
+
+
+  <div class="container discount-product" >
+  <div class="cards card1">  
+    <div class="text">
+    <span>Price</span><span>Universal kick</span>
+  </div> 
+    <div class="sticker">38%
+    OFF
+    </div>
+</div>
+<div class="cards card1">  
+  <div class="text">
+  <span>Price</span><span>Universal kick</span>
+</div> 
+  <div class="sticker">38%
+  OFF
+  </div>
+</div>
+<div class="cards card1">  
+  <div class="text">
+  <span>Price</span><span>Universal kick</span>
+</div> 
+  <div class="sticker">38%
+  OFF
+  </div>
+</div>
+</div>
+
+<div class="container sale-product" id="diffproduct">
+
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-containor">
+
+  <nav aria-label="...">
+    <ul class="pagination">
+      <div class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </div>
+      <div class="page-item"><a class="page-link" href="#">1</a></div>
+      <div class="page-item active">
+        <a class="page-link z-0" href="#">2 <span class="sr-only">(current)</span></a>
+      </div>
+      <div class="page-item"><a class="page-link" href="#">3</a></div>
+      <div class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </div>
+    </ul>
+  </nav>
+</div>
+
+
+
+
+<div id="categories">
+
+  </div>
+
+
+
+
+
+
+
+
+    <!-- left side -->
+  <!-- <div class="contaioner details">
+    <div class="ful-img"><img src="./images/p-1.webp" alt="" width="320px">
+
+      <hr>
+      <div class="small-imgs">
+        <img src="../pak-wheel/images/honda-WR-V.png" alt="" width="70px">
+        <img src="../pak-wheel/images/audi-A7.png"alt="" width="70px">
+          <img src="../pak-wheel/images/honda-WR-V.png"alt="" width="70px">
+          <img src="../pak-wheel/images/honda-WR-V.png" alt=""width="70px">
+      </div>
+    </div> -->
+
+
+
+
+
+    <!-- Mid side -->
+    <!-- <div class="more-detail">
+      <h5>Multicolor Heat Resistant Fruity Glass Mason Jar Mugs Fruit Juice Cups with Lid and Straw For Milk, Milkshakes
+        Juices 480 ml</h5>
+      <div class="rate-box">
+        <div>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="discount-price"><a href="#"> 72 Raiting</a></span>
+        </div>
+
+        <div class="share-box">
+          <span class="share"><img src="images/share.png" alt="" width="26px"></span>
+          <span class="favourit"><img src="images/heart.png" alt=""></span>
+        </div>
+      </div>
+      <div class="price-box">
+        <div class="price-head">Rs.499</div>
+        <div><del>599</del>-17%</div>
+      </div>
+
+      <div class="quantity">
+        <div>Quantity</div>
+        <img src="./images/minus-sign.png" alt="" width="20px">
+        <div>1</div>
+        <img src="./images/plus-positive-add-mathematical-symbol.png" alt="" width="20px">
+      </div>
+      <div class="btn-box">
+        <div class="btn btn1">Buy Now</div>
+        <div class="btn btn2">Add to Cart</div>
+
+      </div>
+
+    </div>
+
+    
+    <div>
+      <div class="delivery">
+        <div class="top">
+          <small>Delivery</small><img src="images/warning.png" alt="">
+        </div>
+        <div class="top">
+          <div>
+            <span><img src="./images/location.png" alt=""></span><span class="addr">Sindh, Karachi - Gulshan-e-Iqbal,
+              Block 15</span>
+          </div>
+          <div><a href="">Change</a></div>
+        </div>
+      </div>
+      <div class="delivery">
+        <div class="top">
+          <small>Delivery</small><img src="images/warning.png" alt="">
+        </div>
+        <div class="top">
+          <div>
+            <span><img src="./images/location.png" alt=""></span><span class="addr">Sindh, Karachi - Gulshan-e-Iqbal,
+              Block 15</span>
+          </div>
+          <div><a href="">Change</a></div>
+        </div>
+      </div>
+      <div class="delivery">
+        <div class="top">
+          <small>Delivery</small><img src="images/warning.png" alt="">
+        </div>
+        <div class="top">
+          <div>
+            <span><img src="./images/location.png" alt=""></span><span class="addr">Sindh, Karachi - Gulshan-e-Iqbal,
+              Block 15</span>
+          </div>
+          <div><a href="">Change</a></div>
+        </div>
+      </div>
+
+      <div class="delivery">
+        <div class="top">
+          <small>Delivery</small><img src="images/warning.png" alt="">
+        </div>
+        <div class="top">
+          <div>
+            <span><img src="./images/location.png" alt=""></span><span class="addr">Sindh, Karachi - Gulshan-e-Iqbal,
+              Block 15</span>
+          </div>
+          <div><a href="">Change</a></div>
+        </div>
+      </div>
+      <div class="delivery">
+        <div class="top">
+          <small>Delivery</small><img src="images/warning.png" alt="">
+        </div>
+        <div class="top">
+          <div>
+            <span><img src="./images/location.png" alt=""></span><span class="addr">Sindh, Karachi - Gulshan-e-Iqbal,
+              Block 15</span>
+          </div>
+          <div><a href="">Change</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer row align-items-center">
+    <div class="logoend col-lg-4 col-md-6 col-sm-6 col-6" data-aos="fade-up"><img src="./images/logo.png" alt=""
+        width="180px"></div>
+
+    <span class="about col-lg-4 col-md-6 col-sm-6 col-12 p-4" data-aos="fade-up">
+      <h6>CONTACT US</h6>
+      <h6>TERMS & CONDITIONS</h6>
+      <h6>PRIVACY POLICY</h6>
+      <h6>COPYRIGHT PRODUCT FACTS</h6>
+      <h6>SERVE PEPSI ABOUT OUR ADSCAREERS</h6>
+      <h6>CAREER</h6>
+    </span>
+
+
+    <div class="icon-side  col-lg-3 col-md-6 col-sm-6 col-12">
+      <div class="s-btn px-4 py-2" data-aos="fade-up">SUBSCRIBE TO NEWSLETTER</div>
+      <div class="icon row py-2">
+        <div class="icon-in col-lg-2 col-md-2 col-sm-2 col-2"> <a href="https://twitter.com/pepsi"><img
+              src="./images/icon-twitter.svg" alt="" width="150%"></a></div>
+        <div class="icon-in col-lg-2 col-md-2 col-sm-2 col-2"> <a href="https://web.facebook.com/waqas.qurashi.923"><img
+              src="./images/icon-facebook.svg" alt="" width="150%"></a></div>
+        <div class="icon-in col-lg-2 col-md-2 col-sm-2 col-2"> <a href="https://www.instagram.com/pepsi/"><img
+              src="./images/icon-instagram.svg" alt="" width="150%"></a></div>
+        <div class="icon-in col-lg-2 col-md-2 col-sm-2 col-2"><a
+            href="https://www.linkedin.com/in/muhammad-waqas-3b191326a"><img src="./images/icon-youtube.svg" alt=""
+              width="150%"></a></div>
+        <div class="icon-in col-lg-2 col-md-2 col-sm-2 col-2"><a href="https://github.com/MWaqasMW/MWaqas"><img
+              src="./images/icon-tiktok.svg" alt="" width="150%"></a></div>
+      </div>
+    </div>
+  </footer>
+<div class="copyright">Copy Write All Reserved @ 2023</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
